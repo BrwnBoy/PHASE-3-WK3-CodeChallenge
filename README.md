@@ -40,3 +40,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ##### Extras
+(*Link to my domain design plan*:https://jamboard.google.com/d/1BihiDztKh6UHSIKWHWTXA3GPtVmvwu1loaZ_L1Pkt48/edit?usp=sharing)
