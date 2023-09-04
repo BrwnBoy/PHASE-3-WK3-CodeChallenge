@@ -1,7 +1,7 @@
 # PHASE-3-WK3-CodeChallenge
 Authour:**Brian Mwangi Maina**
 
-## Prequisites:
+## Prerequisites:
 
 **Technologies Used**
 
@@ -12,29 +12,29 @@ Authour:**Brian Mwangi Maina**
 
 *To run the application, in your terminal*
 
-<li>Open the terminal and clone the repository to your local machine:git clone git@github.com:BrwnBoy/PHASE-3-WK3-CodeChallenge.git//
+<li>Open the terminal and clone the repository to your local machine: git clone git@github.com:BrwnBoy/PHASE-3-WK3-CodeChallenge.git//
 <li>cd into *PHASE-3-WK3-CodeChallenge*
 <li>Finally, open up vs.code by typing in (code .) while in the repository.
 
 ### What Goes Into Making The Programs Run:
 
-(1)**Importing of necessary modules**:*At the beginning of each script, I imported all the necessary modules, which typically included sqlalchemy and my own modules where I defined my SQLAlchemy models.*
+(1)**Importing of necessary modules**: *At the beginning of each script, I imported all the necessary modules, which typically included SQLAlchemy and my own modules where I defined my SQLAlchemy models.*
 
-(2)**Setting up of engines & sessions**:*SQLAlchemy uses an engine to interact with databases, and a session to manage all the operations.They are needed so that the user can work  with models.*
+(2)**Setting up of engines & sessions**: *SQLAlchemy uses an engine to interact with databases and a session to manage all the operations. They are needed so that the user can work  with models.*
  
 (3)**Use of Models**:*Models can be used to query the database, create new records, and so on.* *Here's an example*:
-**creating a new restaurant**
+**Creating a new restaurant**
 new_restaurant = Restaurant(name='Test Restaurant', price=50)
 session.add(new_restaurant)
 session.commit()
-**querying restaurants**
+**Querying restaurants**
 restaurants = session.query(Restaurant).all()
 for restaurant in restaurants:
     print(restaurant.name)
 
-(4)**Closing of the Session**:*Closing of the session is quite important, since when done it tends ro free up resources.* *Example*:**session.close()**
+(4)**Closing of the Session**: *Closing of the session is quite important since when done it tends to free up resources.* *Example*:**session.close()**
 
-(5)**Finally, run the script**:*You can the script from the command line using the python command followed by the name of the script.* *Example*:**python3 review.py**
+(5)**Finally, run the script**:*You can the script from the command line using the Python command followed by the name of the script.* *Example*:**python3 review.py**
 
 #### License 
 
