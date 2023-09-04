@@ -14,7 +14,7 @@ Authour:**Brian Mwangi Maina**
 
 <li>Open the terminal and clone the repository to your local machine:git clone git@github.com:BrwnBoy/PHASE-3-WK3-CodeChallenge.git//
 <li>cd into *PHASE-3-WK3-CodeChallenge*
-<li>Finally, open up vs.code by typing in code . while in the repository.
+<li>Finally, open up vs.code by typing in (code .) while in the repository.
 
 ### What Goes Into Making The Programs Run:
 
