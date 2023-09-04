@@ -12,7 +12,7 @@ Authour:**Brian Mwangi Maina**
 
 *To run the application, in your terminal*
 
-<li>Open the terminal and clone the repository to your local machine://git@github.com:BrwnBoy/PHASE-3-WK3-CodeChallenge.git//
+<li>Open the terminal and clone the repository to your local machine:git clone git@github.com:BrwnBoy/PHASE-3-WK3-CodeChallenge.git//
 <li>cd into *PHASE-3-WK3-CodeChallenge*
 <li>Finally, open up vs.code by typing in code . while in the repository.
 
