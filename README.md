@@ -22,7 +22,7 @@ Authour:**Brian Mwangi Maina**
 
 (2)**Setting up of engines & sessions**: *SQLAlchemy uses an engine to interact with databases and a session to manage all the operations. They are needed so that the user can work  with models.*
  
-(3)**Use of Models**:*Models can be used to query the database, create new records, and so on.* *Here's an example*:
+(3)**Use of Models**: *Models can be used to query the database, create new records, and so on.* *Here's an example*:
 **Creating a new restaurant**
 new_restaurant = Restaurant(name='Test Restaurant', price=50)
 session.add(new_restaurant)
@@ -34,7 +34,7 @@ for restaurant in restaurants:
 
 (4)**Closing of the Session**: *Closing of the session is quite important since when done it tends to free up resources.* *Example*:**session.close()**
 
-(5)**Finally, run the script**:*You can run the script from the command line using the Python3 command followed by the name of the script.* *Example*:**python3 review.py**
+(5)**Finally, run the script**: *You can run the script from the command line using the Python3 command followed by the name of the script.* *Example*:**python3 review.py**
 
 #### License 
 
