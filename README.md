@@ -34,7 +34,7 @@ for restaurant in restaurants:
 
 (4)**Closing of the Session**: *Closing of the session is quite important since when done it tends to free up resources.* *Example*:**session.close()**
 
-(5)**Finally, run the script**:*You can the script from the command line using the Python command followed by the name of the script.* *Example*:**python3 review.py**
+(5)**Finally, run the script**:*You can run the script from the command line using the Python3 command followed by the name of the script.* *Example*:**python3 review.py**
 
 #### License 
 
