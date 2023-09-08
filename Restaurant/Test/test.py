@@ -1,9 +1,13 @@
-from sqlachemy import create_engine
-from sqlachemy.orm import Session
+from sqlalchemy import create_engine
+from sqlalchemy.orm import Session
+from sqlalchemy.orm import sessionmaker
+from restaurant import Restaurant
+from customer import Customer
+from review import Review
 
 engine = create_engine('sqlite:///restaurant.db')
-session = sessionmaker(bind=engine)
-session = Session(engine)
+Session = sessionmaker(bind=engine)
+session = Session()
 
 def setup_module(module):
     Base.metadata.create_all(engine)
@@ -19,5 +23,5 @@ def test_full_name():
     customer = session.query(Customer).first()
     assert customer.full_name() == 'Test Customer'
     
-def teardowm_module(module):
+def teardown_module(module):
     Base.metadata.drop_all(engine)

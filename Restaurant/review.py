@@ -1,6 +1,12 @@
-from sqlalchemy import column, integer, string, ForeignKey
-from sqlachemy.orm import relationship
+from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy.orm import relationship
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import declarative_base
+
+engine = create_engine('sqlite:///restaurant.db')
+Session = sessionmaker(bind=engine)
+session = Session()
 
 Base = declarative_base()
 
